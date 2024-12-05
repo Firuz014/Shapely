@@ -1,0 +1,476 @@
+main {
+  height: 900px;
+  background-image: url("../img/mainBg.jpeg");
+  background-attachment: fixed;
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+  height: 400px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5564819677871149) 0%,
+      rgba(0, 0, 0, 0.24275647759103647) 100%
+    ),
+    url("../img/bodyBG.jpg");
+  background-attachment: fixed;
+  background-position: 60% 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #666;
+  font-weight: 100;
+}
+
+menu {padding: 0;}
+menu li {margin: 5px 0;}
+
+menu li a {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.fa-magnifying-glass {display: none;}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContent {
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.mainBtn {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mainBtn button {
+  padding: 15px 50px;
+  margin: 15px 15px;
+}
+
+.btn1 {
+  border: none;
+  background-color: #745cf9;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn1:hover {
+  background: rgb(255, 255, 255, 80%);
+  background-color: #735cf9c4;
+}
+
+.btn2 {
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn2:hover {
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {text-align: center;}
+
+article .row .col img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+article .row .col .content {padding: 20px;}
+
+article .row .col .content h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: #0e1015;
+  margin-bottom: 0.9em;
+}
+
+article .row .col p {
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #8c979e;
+  margin-bottom: 1.5em;
+}
+
+article .row2 .col img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+article .row2 .col .content {padding: 20px;}
+
+article .row2 .col .content h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: #0e1015;
+  margin-bottom: 0.9em;
+}
+
+article .row2 .col p {
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #8c979e;
+  margin-bottom: 1.5em;
+}
+
+.articleBtn button {
+  padding: 15px 50px;
+  margin: 15px 0;
+}
+
+.parallax .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 20px;
+}
+
+.parallax .content h2 {
+  font-size: 2em;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: #fff;
+  margin-bottom: 0.9em;
+  text-align: center;
+}
+
+.parallax .content p {
+  font-size: 0.8em;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+
+.row4, .row5{background-color: #f5f5f5;}
+
+.row4 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.row4 .content h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e1015;
+  padding: 10px 0;
+}
+
+.row4 .content p {
+  font-size: 0.8em;
+  font-weight: 300;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #abb8c3;
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+.row5 .container img {max-width: 100%;}
+.row6{background-color: #0e1015;}
+
+.row6 .contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.row6 .contentText h3{
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.row6 .contentText p{
+  color: #fff;
+  padding: 20px;
+}
+
+.contentImg img{max-width: 100%;}
+
+.contentImg .content h6{ cursor: pointer;}
+
+.row7 .parallax .content h2{font-size: 1em;}
+
+.row7Img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.row7Img img{
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.row7 .parallax {
+  height: 400px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5564819677871149) 0%,
+      rgba(0, 0, 0, 0.24275647759103647) 100%
+    ),
+    url("../img/lastParallax.jpg");
+  background-attachment: fixed;
+  background-position: 60% 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row7 .content h2{
+  font: 1.9em;
+}
+
+.row7 .content p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Raleway', 'Helvetica Neue',
+}
+
+footer{
+  padding: 30px;
+  background-color: #000;
+}
+
+footer .content .links{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+footer .content .links li {
+  margin-left: 1.1em;
+}
+footer .content .links li a {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+footer .content p {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #logo {align-items: center;}
+
+  menu {display: flex;}
+
+  menu li {padding: 0 15px;}
+
+  .fa-magnifying-glass {display: initial;}
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainContent {
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  .mainContentBtn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainContentBtn button {
+    padding: 15px 50px;
+    margin: 15px 15px;
+  }
+
+  .btn1 {
+    border: none;
+    background-color: #745cf9;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+
+  .btn2 {
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+
+  h1 {
+    font-size: 3.75em;
+    text-align: center;
+  }
+
+  article .row .col img {max-width: 50%;}
+
+  article .row .col {
+    display: flex;
+    justify-content: center;
+  }
+
+  article .row .col .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33%;
+  }
+
+  article .row .col .content h2 {font-size: 2.5em;}
+
+  article .row .col .content p {
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  article .row2 .col img {max-width: 50%;}
+
+  article .row2 .col {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: #f5f5f5;
+  }
+
+  article .row2 .col .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33%;
+  }
+
+  article .row2 .col .content h2 {font-size: 2.5em;}
+
+  article .row2 .col .content p {
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  .parallax .content h2 {
+    font-size: 3.75em;
+    font-weight: 300;
+    font-family: monospace;
+    color: #fff;
+    margin-bottom: 0.9em;
+  }
+
+  .parallax .content p {
+    font-size: 0.9em;
+    line-height: 24px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    max-width: 700px;
+  }
+
+  .row4 .content h2 {
+    font-size: 2em;
+    padding: 10px 0;
+  }
+
+  .row4 .content p {
+    max-width: 600px;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #abb8c3;
+    line-height: 1.5em;
+    padding: 15px;
+  }
+
+  .row6contentImg{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contentImg {
+    position: relative;
+    max-width: 25%;
+    display: flex
+  }
+
+  .contentImg img{width: 100%;}
+
+  .contentImg .content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7581626400560224) 3%, rgba(0,0,0,0.24275647759103647) 100%);
+    opacity: 0;
+    transition: all .3s;
+    color: #fff;
+    font-size: 1.3em;
+  }
+
+  .contentImg .content:hover {opacity: 1;}
+
+  .row7 .parallax .content h2{font: 100 1.9em 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+  footer .content{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+
+}
